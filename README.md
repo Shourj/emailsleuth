@@ -94,3 +94,17 @@ This tool is intended for:
 ---
 
 ## 📁 Project Structure
+
+    emailsleuth/
+    │
+    ├── modules/
+    │   ├── dns_check.py         # MX, SPF, DMARC analysis
+    │   ├── whois_lookup.py      # Domain registration intelligence
+    │   ├── breach_check.py      # Breach database queries
+    │   ├── smtp_check.py        # SMTP existence verification
+    │   ├── gravatar_check.py    # Gravatar profile OSINT
+    │   └── report_generator.py  # HTML report generation
+    │
+    ├── main.py                  # Entry point
+    ├── requirements.txt
+    └── README.md
